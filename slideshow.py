@@ -209,15 +209,29 @@ def generate_video(records: list[dict], output: str, char_col: str = None,
 
 
 def main():
-    if len(sys.argv) < 2:
-        print(f"Usage: {sys.argv[0]} INPUT.tsv [OUTPUT.mp4]")
-        sys.exit(1)
+    import argparse
+    parser = argparse.ArgumentParser(description="Generate flashcard slideshow videos")
+    parser.add_argument("input", help="Input TSV file")
+    parser.add_argument("output", nargs="?", help="Output MP4 file (or directory with --batch)")
+    parser.add_argument("--batch", type=int, metavar="N",
+                        help="Split into videos of N records each, output to directory")
+    args = parser.parse_args()
 
-    tsv_path = sys.argv[1]
-    output = sys.argv[2] if len(sys.argv) >= 3 else str(Path(tsv_path).with_suffix(".mp4"))
+    records = load_tsv(args.input)
+    stem = Path(args.input).stem
 
-    records = load_tsv(tsv_path)
-    generate_video(records, output)
+    if args.batch:
+        out_dir = Path(args.output) if args.output else Path(args.input).parent
+        out_dir.mkdir(parents=True, exist_ok=True)
+        for start in range(0, len(records), args.batch):
+            batch = records[start:start + args.batch]
+            batch_num = start // args.batch + 1
+            out_path = str(out_dir / f"{stem}_{batch_num:02d}.mp4")
+            print(f"\n=== Batch {batch_num} ({len(batch)} cards) → {out_path} ===")
+            generate_video(batch, out_path)
+    else:
+        output = args.output or str(Path(args.input).with_suffix(".mp4"))
+        generate_video(records, output)
 
 
 if __name__ == "__main__":

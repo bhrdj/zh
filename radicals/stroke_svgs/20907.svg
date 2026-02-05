@@ -1,0 +1,40 @@
+<svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="white"/>
+  <rect width="1024" height="1024" fill="none" stroke="black" stroke-width="4"/>
+  <g stroke="black" stroke-dasharray="4,4" stroke-width="1" transform="scale(4, 4)">
+    <line x1="0" y1="0" x2="256" y2="256"/>
+    <line x1="256" y1="0" x2="0" y2="256"/>
+    <line x1="128" y1="0" x2="128" y2="256"/>
+    <line x1="0" y1="128" x2="256" y2="128"/>
+  </g>
+  <g transform="scale(1, -1) translate(0, -900)">
+    <style type="text/css">
+        .stroke1 {fill: #808080;}
+        .stroke2 {fill: #808080;}
+        .stroke3 {fill: #808080;}
+        .stroke4 {fill: #808080;}
+        .stroke5 {fill: #808080;}
+        .stroke6 {fill: #808080;}
+        .stroke7 {fill: #808080;}
+        .stroke8 {fill: #808080;}
+        .stroke9 {fill: #808080;}
+        .stroke10 {fill: #808080;}
+        .stroke11 {fill: #808080;}
+        .stroke12 {fill: #808080;}
+        .stroke13 {fill: #808080;}
+        .stroke14 {fill: #808080;}
+        .stroke15 {fill: #808080;}
+        .stroke16 {fill: #808080;}
+        .stroke17 {fill: #808080;}
+        .stroke18 {fill: #808080;}
+        .stroke19 {fill: #808080;}
+        .stroke20 {fill: #808080;}
+        
+    </style>
+
+    <path d="M 441 644 Q 484 599 529 546 Q 542 530 558 529 Q 570 528 577 541 Q 584 556 579 588 Q 572 639 443 695 Q 427 701 420 699 Q 414 696 414 682 Q 417 670 441 644 Z" class="stroke1"/>
+    <text x="425" y="691" transform="translate(425,691) scale(1,-1) translate(-425,-691)" font-family="Helvetica" font-size="72" font-weight="800" fill="#000000">1</text>
+    <path d="M 403 190 Q 390 187 391 169 Q 404 88 436 70 Q 442 63 453 64 Q 462 65 464 91 Q 471 133 591 395 Q 600 411 599 418 Q 598 428 589 422 Q 579 416 447 231 Q 432 210 403 190 Z" class="stroke2"/>
+    <text x="449" y="75" transform="translate(449,75) scale(1,-1) translate(-449,-75)" font-family="Helvetica" font-size="72" font-weight="800" fill="#000000">2</text>
+</g>
+</svg>

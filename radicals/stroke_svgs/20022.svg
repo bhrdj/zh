@@ -1,0 +1,38 @@
+<svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="white"/>
+  <rect width="1024" height="1024" fill="none" stroke="black" stroke-width="4"/>
+  <g stroke="black" stroke-dasharray="4,4" stroke-width="1" transform="scale(4, 4)">
+    <line x1="0" y1="0" x2="256" y2="256"/>
+    <line x1="256" y1="0" x2="0" y2="256"/>
+    <line x1="128" y1="0" x2="128" y2="256"/>
+    <line x1="0" y1="128" x2="256" y2="128"/>
+  </g>
+  <g transform="scale(1, -1) translate(0, -900)">
+    <style type="text/css">
+        .stroke1 {fill: #808080;}
+        .stroke2 {fill: #808080;}
+        .stroke3 {fill: #808080;}
+        .stroke4 {fill: #808080;}
+        .stroke5 {fill: #808080;}
+        .stroke6 {fill: #808080;}
+        .stroke7 {fill: #808080;}
+        .stroke8 {fill: #808080;}
+        .stroke9 {fill: #808080;}
+        .stroke10 {fill: #808080;}
+        .stroke11 {fill: #808080;}
+        .stroke12 {fill: #808080;}
+        .stroke13 {fill: #808080;}
+        .stroke14 {fill: #808080;}
+        .stroke15 {fill: #808080;}
+        .stroke16 {fill: #808080;}
+        .stroke17 {fill: #808080;}
+        .stroke18 {fill: #808080;}
+        .stroke19 {fill: #808080;}
+        .stroke20 {fill: #808080;}
+        
+    </style>
+
+    <path d="M 387 680 Q 463 595 550 475 Q 566 450 582 443 Q 592 440 601 451 Q 617 464 609 515 Q 600 587 393 715 Q 383 722 379 708 Q 376 693 387 680 Z" class="stroke1"/>
+    <text x="391" y="701" transform="translate(391,701) scale(1,-1) translate(-391,-701)" font-family="Helvetica" font-size="72" font-weight="800" fill="#000000">1</text>
+</g>
+</svg>

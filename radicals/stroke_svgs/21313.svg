@@ -1,0 +1,40 @@
+<svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="white"/>
+  <rect width="1024" height="1024" fill="none" stroke="black" stroke-width="4"/>
+  <g stroke="black" stroke-dasharray="4,4" stroke-width="1" transform="scale(4, 4)">
+    <line x1="0" y1="0" x2="256" y2="256"/>
+    <line x1="256" y1="0" x2="0" y2="256"/>
+    <line x1="128" y1="0" x2="128" y2="256"/>
+    <line x1="0" y1="128" x2="256" y2="128"/>
+  </g>
+  <g transform="scale(1, -1) translate(0, -900)">
+    <style type="text/css">
+        .stroke1 {fill: #808080;}
+        .stroke2 {fill: #808080;}
+        .stroke3 {fill: #808080;}
+        .stroke4 {fill: #808080;}
+        .stroke5 {fill: #808080;}
+        .stroke6 {fill: #808080;}
+        .stroke7 {fill: #808080;}
+        .stroke8 {fill: #808080;}
+        .stroke9 {fill: #808080;}
+        .stroke10 {fill: #808080;}
+        .stroke11 {fill: #808080;}
+        .stroke12 {fill: #808080;}
+        .stroke13 {fill: #808080;}
+        .stroke14 {fill: #808080;}
+        .stroke15 {fill: #808080;}
+        .stroke16 {fill: #808080;}
+        .stroke17 {fill: #808080;}
+        .stroke18 {fill: #808080;}
+        .stroke19 {fill: #808080;}
+        .stroke20 {fill: #808080;}
+        
+    </style>
+
+    <path d="M 541 450 Q 754 474 901 462 Q 935 462 940 467 Q 949 482 935 494 Q 862 560 793 538 Q 745 529 542 499 L 482 492 Q 355 479 290 469 Q 218 457 112 455 Q 97 455 96 443 Q 95 430 116 414 Q 134 401 168 388 Q 180 384 199 393 Q 215 399 292 413 Q 377 434 482 444 L 541 450 Z" class="stroke1"/>
+    <text x="109" y="442" transform="translate(109,442) scale(1,-1) translate(-109,-442)" font-family="Helvetica" font-size="72" font-weight="800" fill="#000000">1</text>
+    <path d="M 482 444 Q 482 240 478 171 Q 475 -6 495 -40 Q 511 -56 521 -34 Q 539 21 540 425 Q 540 438 541 450 L 542 499 Q 543 722 569 763 Q 576 781 555 798 Q 528 819 482 830 Q 461 836 447 821 Q 437 812 450 799 Q 480 774 482 739 Q 482 651 482 492 L 482 444 Z" class="stroke2"/>
+    <text x="456" y="811" transform="translate(456,811) scale(1,-1) translate(-456,-811)" font-family="Helvetica" font-size="72" font-weight="800" fill="#000000">2</text>
+</g>
+</svg>

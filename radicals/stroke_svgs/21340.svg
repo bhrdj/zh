@@ -1,0 +1,40 @@
+<svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="white"/>
+  <rect width="1024" height="1024" fill="none" stroke="black" stroke-width="4"/>
+  <g stroke="black" stroke-dasharray="4,4" stroke-width="1" transform="scale(4, 4)">
+    <line x1="0" y1="0" x2="256" y2="256"/>
+    <line x1="256" y1="0" x2="0" y2="256"/>
+    <line x1="128" y1="0" x2="128" y2="256"/>
+    <line x1="0" y1="128" x2="256" y2="128"/>
+  </g>
+  <g transform="scale(1, -1) translate(0, -900)">
+    <style type="text/css">
+        .stroke1 {fill: #808080;}
+        .stroke2 {fill: #808080;}
+        .stroke3 {fill: #808080;}
+        .stroke4 {fill: #808080;}
+        .stroke5 {fill: #808080;}
+        .stroke6 {fill: #808080;}
+        .stroke7 {fill: #808080;}
+        .stroke8 {fill: #808080;}
+        .stroke9 {fill: #808080;}
+        .stroke10 {fill: #808080;}
+        .stroke11 {fill: #808080;}
+        .stroke12 {fill: #808080;}
+        .stroke13 {fill: #808080;}
+        .stroke14 {fill: #808080;}
+        .stroke15 {fill: #808080;}
+        .stroke16 {fill: #808080;}
+        .stroke17 {fill: #808080;}
+        .stroke18 {fill: #808080;}
+        .stroke19 {fill: #808080;}
+        .stroke20 {fill: #808080;}
+        
+    </style>
+
+    <path d="M 418 80 Q 406 41 436 -32 Q 443 -51 452 -55 Q 459 -62 467 -53 Q 497 -32 496 37 Q 495 89 497 567 Q 497 666 515 733 Q 525 749 521 765 Q 514 775 451 812 Q 426 831 402 813 Q 396 807 404 791 Q 434 749 441 652 Q 450 250 429 129 Q 425 105 418 80 Z" class="stroke1"/>
+    <text x="414" y="805" transform="translate(414,805) scale(1,-1) translate(-414,-805)" font-family="Helvetica" font-size="72" font-weight="800" fill="#000000">1</text>
+    <path d="M 558 499 Q 657 448 780 371 Q 804 353 821 353 Q 831 354 837 367 Q 846 386 820 430 Q 783 493 551 533 Q 539 536 540 522 Q 544 506 558 499 Z" class="stroke2"/>
+    <text x="553" y="520" transform="translate(553,520) scale(1,-1) translate(-553,-520)" font-family="Helvetica" font-size="72" font-weight="800" fill="#000000">2</text>
+</g>
+</svg>

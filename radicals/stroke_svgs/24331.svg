@@ -1,0 +1,42 @@
+<svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="white"/>
+  <rect width="1024" height="1024" fill="none" stroke="black" stroke-width="4"/>
+  <g stroke="black" stroke-dasharray="4,4" stroke-width="1" transform="scale(4, 4)">
+    <line x1="0" y1="0" x2="256" y2="256"/>
+    <line x1="256" y1="0" x2="0" y2="256"/>
+    <line x1="128" y1="0" x2="128" y2="256"/>
+    <line x1="0" y1="128" x2="256" y2="128"/>
+  </g>
+  <g transform="scale(1, -1) translate(0, -900)">
+    <style type="text/css">
+        .stroke1 {fill: #808080;}
+        .stroke2 {fill: #808080;}
+        .stroke3 {fill: #808080;}
+        .stroke4 {fill: #808080;}
+        .stroke5 {fill: #808080;}
+        .stroke6 {fill: #808080;}
+        .stroke7 {fill: #808080;}
+        .stroke8 {fill: #808080;}
+        .stroke9 {fill: #808080;}
+        .stroke10 {fill: #808080;}
+        .stroke11 {fill: #808080;}
+        .stroke12 {fill: #808080;}
+        .stroke13 {fill: #808080;}
+        .stroke14 {fill: #808080;}
+        .stroke15 {fill: #808080;}
+        .stroke16 {fill: #808080;}
+        .stroke17 {fill: #808080;}
+        .stroke18 {fill: #808080;}
+        .stroke19 {fill: #808080;}
+        .stroke20 {fill: #808080;}
+        
+    </style>
+
+    <path d="M 514 484 Q 565 503 707 536 Q 720 536 728 552 Q 728 567 700 575 Q 661 596 576 560 Q 536 545 498 529 L 452 513 Q 428 506 169 434 Q 136 427 164 409 Q 206 382 240 395 Q 340 431 468 470 L 514 484 Z" class="stroke1"/>
+    <text x="164" y="422" transform="translate(164,422) scale(1,-1) translate(-164,-422)" font-family="Helvetica" font-size="72" font-weight="800" fill="#000000">1</text>
+    <path d="M 468 470 Q 603 125 788 20 Q 854 -23 883 -20 Q 904 -14 893 14 Q 887 62 888 201 Q 887 226 878 227 Q 875 227 835 130 Q 819 88 790 98 Q 780 102 767 109 Q 625 208 514 484 L 498 529 Q 461 638 458 713 Q 462 759 400 769 Q 360 778 341 766 Q 322 756 335 736 Q 392 702 399 667 Q 426 583 452 513 L 468 470 Z" class="stroke2"/>
+    <text x="348" y="749" transform="translate(348,749) scale(1,-1) translate(-348,-749)" font-family="Helvetica" font-size="72" font-weight="800" fill="#000000">2</text>
+    <path d="M 646 745 Q 680 718 717 685 Q 732 672 749 673 Q 759 674 765 688 Q 769 704 759 735 Q 747 771 639 795 Q 623 798 616 795 Q 610 791 613 777 Q 617 767 646 745 Z" class="stroke3"/>
+    <text x="622" y="787" transform="translate(622,787) scale(1,-1) translate(-622,-787)" font-family="Helvetica" font-size="72" font-weight="800" fill="#000000">3</text>
+</g>
+</svg>
